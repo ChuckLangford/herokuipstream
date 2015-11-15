@@ -6,7 +6,7 @@ function handleRequest(req, res){
   if (ipAddr) {
     var ipList = ipAddr.split(',');
     ipAddr = ipList[ipList.length - 1];
-    res.end(ipAddr);
+    res.end(ipAddr + '\n');
   } else {
     res.end(req.connection.remoteAddress + '\n');
   }
