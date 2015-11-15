@@ -1,0 +1,11 @@
+{
+  "name": "myipstream",
+  "version": "1.0.0",
+  "description": "Uses node streams to return the ip address of the connected client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chuck Langford",
+  "license": "MIT"
+}
