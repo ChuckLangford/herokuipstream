@@ -4,8 +4,7 @@
   "description": "Uses node streams to return the ip address of the connected client.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
   },
   "author": "Chuck Langford",
   "license": "MIT"
