@@ -1,5 +1,5 @@
 var http = require('http');
-const PORT=80; 
+const PORT=process.env.PORT || 8080; 
 
 function handleRequest(req, res){
   res.end(req.connection.remoteAddress + '\n');
